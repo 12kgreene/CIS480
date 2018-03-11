@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Justin Colley</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="csstemplate.css" />
+  <link rel="stylesheet" href="calendarstyle.css">
+        <script src="calendarscript.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><img src = "ecpi_innsbrook.png" alt = "ECPI Logo"></span></a></h1>
+		
+		<form method="post" action="#" id="login_form">
+		
+			<br><input type = "text" name="username" placeholder="Username" id = "username"><br>
+			
+			<input type = "password" name="password" placeholder="Password" id = "password"><br>
+			<br><button type="button">Log in! </button>
+		</form>
+          
+		  
+		  <h2></h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="examples.html">MenuContent1</a></li>
+          <li><a href="page.html">Menu Content 2</a></li>
+          <li><a href="another_page.html">Menu Content 3</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+      
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://inns.ecpi.net/">link1</a></li>
+          <li><a href="https://notepad-plus-plus.org/">link2</a></li>
+          <li><a href="http://www.nexusmods.com/games/?">link3</a></li>
+          <li><a href="http://www.w3schools.com/">link4</a></li>
+		  <li><a href="http://www.javascriptsource.com/">link5</a></li>
+		  
+		
+		
+		
+		</ul>
+        <h3>Search</h3>
+
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Content Header</h1>
+		
+		<title>Weekly Scheduler</title>
+        
+    </head>
+    <body onload="expandTables()">
+	
+        <div>
+		
+            <header>
+                <h1 id="temp"><em><u>Scheduler</u></em></h1>
+            </header>
+            <div id="main">
+                <table class = "container">
+                    <tr>
+                        <td class = "container">
+                            <table id="Hours"></table>
+                        </td>
+                        <td class = "container">
+                            <table id="Monday">
+                            </table>
+                        </td>
+                        <td class = "container">
+                            <table id="Tuesday">
+                            </table>
+                        </td>
+                        <td class = "container">
+                            <table id="Wednesday">
+                            </table>
+                        </td>
+                        <td class = "container">
+                            <table id="Thursday">
+                            </table>
+                        </td>
+                        <td class = "container">
+                            <table id="Friday">
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+<div id="coverDiv">
+<div id="formDiv" style="">
+    <form id="form" name="form" action="" method="get">
+                        <p id = "errorText" class ="error"></p>
+                        <p>
+                            Appointment details:
+                        </p>
+                        <textarea id="details" name="details" rows="5" cols="2"></textarea>
+                        <p>
+                            <!-- Duration: -->
+                            <input type="time" id="duration" hidden>
+                        <p id = "durationerror" class ="error"></p>
+                            Start time:
+                            <input type="text" id="startTime" readonly>
+                            End time:
+                            <input type="time" id="endTime">
+                            Select a colour for this appointment:
+                            <input type="color" id="colour" value = 'red'>
+                            <input type="button" name="submit" Value="Create" onclick="putDataIn(this.form)">
+                            <input type="button" name="cancel" Value="Cancel" onclick="closeForm(this.form)">
+                        </p>
+                    </form>
+                    <p id = "testOutput"></p>
+                </div>
+            </div>
+            <div id="appointments">
+            </div>   
+                    <p id = "pageTest"></p>
+            <nav>
+                <p>
+                    <a href="index.html">Home</a>
+                </p>
+                <p>
+                    <a href="/contact">Contact</a>
+                </p>
+            </nav>
+        </div>
+		
+    </body>
+		
+    </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
